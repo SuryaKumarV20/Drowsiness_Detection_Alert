@@ -1,37 +1,36 @@
-![Driver Drowsiness Detection](https://firebasestorage.googleapis.com/v0/b/neelanjan-manna.appspot.com/o/project-images%2FDrowsiness%20Detection.jpeg?alt=media&token=74c92bdd-0beb-4543-b7af-c0fabc9326d5)
-<h1 align="center">Welcome to Driver Drowsiness Detector 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://twitter.com/NeelanjanManna" target="_blank">
-    <img alt="Twitter: NeelanjanManna" src="https://img.shields.io/twitter/follow/NeelanjanManna.svg?style=social" />
-  </a>
-</p>
+# 🛑 Driver Drowsiness Detection with Sound Alerts
 
-> A real-time drowsiness detection system for drivers, which alerts the driver if they fall asleep due to fatigue while still driving. The computer vision algorithm used for the implementation uses a trifold approach to detect drowsiness, including the measurement of forward head tilt angle, measurement of eye aspect ratio (to detect closure of eyes) and measurement of mouth aspect ratio (to detect yawning).
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)](https://opencv.org/)
+[![Dlib](https://img.shields.io/badge/dlib-19.x-orange.svg)](http://dlib.net/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-### 🏠 [Homepage](https://github.com/neelanjan00/Driver-Drowsiness-Detection)
+A real-time Python-based system that monitors a driver’s eye and mouth behavior using webcam input. It detects signs of drowsiness using **EAR (Eye Aspect Ratio)** and **MAR (Mouth Aspect Ratio)** and issues **sound alerts** when the driver shows signs of fatigue like eye closure or yawning.
 
-## Install
+---
 
-```sh
+## 🚀 Features
+
+- 👁️ Real-time face & eye tracking using dlib and OpenCV
+- 📏 EAR & MAR-based drowsiness detection
+- 🔊 Sound alert (alert.wav) when drowsiness is detected
+- 🧠 Optional head pose estimation
+- 💡 Modular and lightweight codebase
+
+---
+
+## 🖼️ Screenshots
+
+> **Real-Time Detection Example**  
+> ![Screenshot](screenshots/detection_example.png)
+
+> *(Add your own screenshot to the `screenshots/` folder and name it `detection_example.png`)*
+
+---
+
+## ⚙️ Requirements
+
+Install all dependencies using:
+
+```bash
 pip install -r Requirements.txt
-```
-
-## Usage
-
-```sh
-python Driver\ Drowsiness\ Detection.py
-```
-
-## Author
-
-👤 **Neelanjan Manna**
-
-* Website: https://neelanjanmanna.ml/
-* Twitter: [@NeelanjanManna](https://twitter.com/NeelanjanManna)
-* Github: [@neelanjan00](https://github.com/neelanjan00)
-* LinkedIn: [@neelanjan00](https://linkedin.com/in/neelanjan00)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
