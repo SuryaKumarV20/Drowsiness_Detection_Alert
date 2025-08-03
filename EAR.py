@@ -1,3 +1,4 @@
+#EAR
 from scipy.spatial import distance as dist
 
 def eye_aspect_ratio(eye):
